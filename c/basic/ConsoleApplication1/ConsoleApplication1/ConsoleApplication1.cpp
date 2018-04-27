@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include<stdlib.h>
 #include <ctype.h>
+#include "stack_array.h"
 
 #define DEBUG_PRINT printf("File %s line %d:"  \
 	                                        " x=%d ,y = %d, z=%d \r\n", \
@@ -59,6 +60,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	int n = 120;
 	callback(myCallback, &n);
+
+	push(1);
+	push(2);
+	push(3);
+
 	system("pause");
 	return 0;
 }
