@@ -6,6 +6,7 @@
 #include "insertSort.h"
 #include "mergeSort.h"
 #include "common.h"
+#include "qsort.h"
 
 int main()
 {
@@ -60,6 +61,12 @@ int main()
 	delete[] arrp2;
 	arrp2 = NULL;
 
+	// øÏÀŸ≈≈–Ú
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("quick sort", quicksort::quickSort, arrp2, N);
+	sortTestHelper::printArray(arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
 
 	system("pause");
     return 0;
