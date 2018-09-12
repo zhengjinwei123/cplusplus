@@ -3,6 +3,8 @@
 
 #include "stdafx.h"
 #include "selectSort.h"
+#include "insertSort.h"
+#include "mergeSort.h"
 #include "common.h"
 
 int main()
@@ -24,6 +26,40 @@ int main()
 	selectsort::selectSortT(arrp, 10);
 	sortTestHelper::printArray(arrp,10);
 	delete[] arrp;
+
+	// 选择排序
+	int N = 1000;
+	int *arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("Select sort", selectsort::selectSortT, arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
+	// 插入排序
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("insert sort", insertsort::insertSort, arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
+	// 优化后的插入排序
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("insert sort fast", insertsort::insertSortF, arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
+	// 归并排序
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("merge sort", mergesort::mergeSort,arrp2,N);
+	sortTestHelper::printArray(arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
+	// 自底向上归并
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("merge sort bu", mergesort::mergeSortBU, arrp2, N);
+	sortTestHelper::printArray(arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
 
 	system("pause");
     return 0;
