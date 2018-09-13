@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="heap.h" />
     <ClInclude Include="insertSort.h" />
     <ClInclude Include="mergeSort.h" />
     <ClInclude Include="qsort.h" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="algorithms.cpp" />
     <ClCompile Include="common.cpp" />
+    <ClCompile Include="heap.cpp" />
     <ClCompile Include="insertSort.cpp" />
     <ClCompile Include="mergeSort.cpp" />
     <ClCompile Include="qsort.cpp" />

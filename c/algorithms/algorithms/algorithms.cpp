@@ -7,6 +7,7 @@
 #include "mergeSort.h"
 #include "common.h"
 #include "qsort.h"
+#include "heap.h"
 
 int main()
 {
@@ -68,6 +69,22 @@ int main()
 	delete[] arrp2;
 	arrp2 = NULL;
 
+	// 三路快速排序
+	arrp2 = sortTestHelper::generateRandomArray(N, 0, N);
+	sortTestHelper::testSort("quick sort 3 ways", quicksort3ways::quickSort, arrp2, N);
+	sortTestHelper::printArray(arrp2, N);
+	delete[] arrp2;
+	arrp2 = NULL;
+
+	// 堆测试
+	cout << "--------------heap test------------------" << endl;
+	MaxHeap<int> maxHeap = MaxHeap<int>(100);
+	cout << "maxHeap.size:" << maxHeap.size() << endl;
+	srand((unsigned int)time(NULL));
+	for (int i = 0; i < 15; i++) {
+		maxHeap.insert(rand() % 100);
+	}
+	maxHeap.testPrint();
 	system("pause");
     return 0;
 }
