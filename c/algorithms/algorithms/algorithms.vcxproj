@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binarySearchTree.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="insertSort.h" />
@@ -156,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithms.cpp" />
+    <ClCompile Include="binarySearchTree.cpp" />
     <ClCompile Include="common.cpp" />
     <ClCompile Include="heap.cpp" />
     <ClCompile Include="insertSort.cpp" />

@@ -8,6 +8,7 @@
 #include "common.h"
 #include "qsort.h"
 #include "heap.h"
+#include "binarySearchTree.h"
 
 int main()
 {
@@ -85,6 +86,11 @@ int main()
 		maxHeap.insert(rand() % 100);
 	}
 	maxHeap.testPrint();
+
+	// ¶ş·Ö²éÕÒ²âÊÔ
+	testBinarySearch();
+
+	testFloorCeil();
 	system("pause");
     return 0;
 }
