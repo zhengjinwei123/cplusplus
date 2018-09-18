@@ -9,6 +9,10 @@
 #include "qsort.h"
 #include "heap.h"
 #include "binarySearchTree.h"
+#include "BST.h"
+
+
+
 
 int main()
 {
@@ -91,6 +95,8 @@ int main()
 	testBinarySearch();
 
 	testFloorCeil();
+
+	testBST();
 	system("pause");
     return 0;
 }

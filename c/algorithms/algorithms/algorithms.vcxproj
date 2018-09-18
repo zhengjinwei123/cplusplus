@@ -146,7 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binarySearchTree.h" />
+    <ClInclude Include="BST.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="fileOps.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="insertSort.h" />
     <ClInclude Include="mergeSort.h" />
@@ -158,7 +160,9 @@
   <ItemGroup>
     <ClCompile Include="algorithms.cpp" />
     <ClCompile Include="binarySearchTree.cpp" />
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="common.cpp" />
+    <ClCompile Include="fileOps.cpp" />
     <ClCompile Include="heap.cpp" />
     <ClCompile Include="insertSort.cpp" />
     <ClCompile Include="mergeSort.cpp" />

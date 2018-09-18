@@ -150,7 +150,7 @@ private:
 
 		int sub_tree_width = (cur_tree_width - 1) / 2;
 		int offset = index_cur_level * (cur_tree_width + 1) + sub_tree_width;
-		assert(offset + 1 < line.size());
+		assert(unsigned int(offset + 1) < line.size());
 		if (num >= 10) {
 			line[offset + 0] = '0' + num / 10;
 			line[offset + 1] = '0' + num % 10;
@@ -168,9 +168,9 @@ private:
 		int sub_tree_width = (cur_tree_width - 1) / 2;
 		int sub_sub_tree_width = (sub_tree_width - 1) / 2;
 		int offset_left = index_cur_level * (cur_tree_width + 1) + sub_sub_tree_width;
-		assert((offset_left + 1) < line.size());
+		assert(unsigned int(offset_left + 1) < line.size());
 		int offset_right = index_cur_level * (cur_tree_width + 1) + sub_tree_width + 1 + sub_sub_tree_width;
-		assert(offset_right < line.size());
+		assert(unsigned int(offset_right) < line.size());
 
 		line[offset_left + 1] = '/';
 		line[offset_right + 0] = '\\';
