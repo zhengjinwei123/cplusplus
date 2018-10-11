@@ -1,3 +1,5 @@
+转载自：`https://www.cnblogs.com/tangxin-blog/p/5698137.html`
+
 原理:protobuf 是google的一个开源项目,其源代码在github上可以下载到,并且源码都采用cmake来构建,所以我们可以把源码下载到本地,然后了利用cmake构建本地工程,然后编译.
 
 本文以当前最新的 protobuf_3.5.0 为例
