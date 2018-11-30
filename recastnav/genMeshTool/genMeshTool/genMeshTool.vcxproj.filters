@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DebugUtils">
+      <UniqueIdentifier>{abf2d47a-5166-4965-a81e-20cdc883588f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd">
+      <UniqueIdentifier>{1415ef69-32ad-4cc9-90b5-5a7aad30acee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugUtils\inc">
+      <UniqueIdentifier>{bb9fd70a-0efc-4a1d-8f41-014bcf24c547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugUtils\src">
+      <UniqueIdentifier>{25ea4e92-dd6a-4107-bf69-ef491abbbb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd\inc">
+      <UniqueIdentifier>{e35384f2-5e15-46c7-a5ee-83e27debc2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd\src">
+      <UniqueIdentifier>{905f89f4-6e09-4669-a97f-894a3ac414ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils\inc\DebugDraw.h">
+      <Filter>DebugUtils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils\inc\DetourDebugDraw.h">
+      <Filter>DebugUtils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils\inc\RecastDebugDraw.h">
+      <Filter>DebugUtils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils\inc\RecastDump.h">
+      <Filter>DebugUtils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourCrowd.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourLocalBoundary.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourObstacleAvoidance.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourPathCorridor.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourPathQueue.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCrowd\inc\DetourProximityGrid.h">
+      <Filter>DetourCrowd\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ChunkyTriMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ConvexVolumeTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\CrowdTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Filelist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\InputGeom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MeshLoaderObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\NavMeshPruneTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\NavMeshTesterTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\OffMeshConnectionTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PerfTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sample_Debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sample_SoloMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sample_TempObstacles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sample_TileMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\SampleInterfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\TestCase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ValueHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\NavMeshSceneTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\detour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\detour_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils\src\DebugDraw.cpp">
+      <Filter>DebugUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils\src\DetourDebugDraw.cpp">
+      <Filter>DebugUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils\src\RecastDebugDraw.cpp">
+      <Filter>DebugUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils\src\RecastDump.cpp">
+      <Filter>DebugUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourCrowd.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourLocalBoundary.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourObstacleAvoidance.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourPathCorridor.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourPathQueue.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCrowd\src\DetourProximityGrid.cpp">
+      <Filter>DetourCrowd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkyTriMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConvexVolumeTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CrowdTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Filelist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputGeom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshLoaderObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavMeshPruneTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavMeshTesterTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OffMeshConnectionTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PerfTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sample_Debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sample_SoloMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sample_TempObstacles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sample_TileMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SampleInterfaces.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValueHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavMeshSceneTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detour_util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
